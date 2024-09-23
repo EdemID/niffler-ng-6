@@ -1,10 +1,10 @@
-package guru.qa.niffler.test.web;
+package guru.qa.niffler.web;
 
 import com.codeborne.selenide.Selenide;
 import com.github.javafaker.Faker;
 import guru.qa.niffler.config.Config;
-import guru.qa.niffler.jupiter.BrowserExtension;
-import guru.qa.niffler.page.LoginPage;
+import guru.qa.niffler.extentions.BrowserExtension;
+import guru.qa.niffler.pages.LoginPage;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 

@@ -68,8 +68,8 @@ dependencies {
     // JUnit
     testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
     // REST
-    testImplementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
-    testImplementation "com.squareup.retrofit2:converter-jackson:${retrofitVersion}"
+    implementation "com.squareup.retrofit2:retrofit:${retrofitVersion}"
+    implementation "com.squareup.retrofit2:converter-jackson:${retrofitVersion}"
     testImplementation "com.squareup.okhttp3:logging-interceptor:${okhttp3Version}"
     testImplementation "com.squareup.okhttp3:okhttp-urlconnection:${okhttp3Version}"
     testImplementation "org.springframework.data:spring-data-commons:${springDataCommonsVersion}"
@@ -116,8 +116,8 @@ dependencies {
     testImplementation "com.github.tomakehurst:wiremock-jre8:${wiremockVersion}"
     testImplementation "com.github.tomakehurst:wiremock-standalone:${wiremockVersion}"
     // Lombok
-    testAnnotationProcessor "org.projectlombok:lombok:${project.ext.lombokVersion}"
-    testCompileOnly "org.projectlombok:lombok:${project.ext.lombokVersion}"
+    annotationProcessor "org.projectlombok:lombok:${project.ext.lombokVersion}"
+    compileOnly "org.projectlombok:lombok:${project.ext.lombokVersion}"
 }
 
 tasks.withType(JavaCompile).configureEach {
