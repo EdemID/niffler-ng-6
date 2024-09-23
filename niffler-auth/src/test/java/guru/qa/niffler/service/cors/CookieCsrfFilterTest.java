@@ -25,7 +25,7 @@ class CookieCsrfFilterTest {
                         @Mock FilterChain filterChain,
                         @Mock CsrfToken csrfToken) throws Exception {
     final String headerName = "csrf-header-name";
-    final String headerValue = "12345";
+    final String headerValue = "12345678";
 
     when(csrfToken.getHeaderName()).thenReturn(headerName);
     when(csrfToken.getToken()).thenReturn(headerValue);

@@ -90,7 +90,7 @@ dependencies {
     testImplementation "io.qameta.allure:allure-okhttp3:${allureVersion}"
     testImplementation "io.qameta.allure:allure-grpc:${allureVersion}"
     // WEB
-    testImplementation "com.codeborne:selenide:${selenideVersion}"
+    implementation "com.codeborne:selenide:${selenideVersion}"
     // Utils
     testImplementation("com.github.javafaker:javafaker:${fakerVersion}") {
         exclude group: 'org.yaml'
