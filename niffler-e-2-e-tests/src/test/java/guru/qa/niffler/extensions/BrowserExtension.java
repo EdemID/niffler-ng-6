@@ -1,4 +1,4 @@
-package guru.qa.niffler.extentions;
+package guru.qa.niffler.extensions;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;

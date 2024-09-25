@@ -2,8 +2,8 @@ package guru.qa.niffler.web;
 
 import com.codeborne.selenide.Selenide;
 import guru.qa.niffler.config.Config;
-import guru.qa.niffler.extentions.BrowserExtension;
-import guru.qa.niffler.extentions.Spending;
+import guru.qa.niffler.extensions.BrowserExtension;
+import guru.qa.niffler.annotations.Spending;
 import guru.qa.niffler.model.SpendJson;
 import guru.qa.niffler.pages.LoginPage;
 import guru.qa.niffler.pages.MainPage;

@@ -3,7 +3,7 @@ package guru.qa.niffler.web;
 import com.codeborne.selenide.Selenide;
 import com.github.javafaker.Faker;
 import guru.qa.niffler.config.Config;
-import guru.qa.niffler.extentions.BrowserExtension;
+import guru.qa.niffler.extensions.BrowserExtension;
 import guru.qa.niffler.pages.LoginPage;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
